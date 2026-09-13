@@ -38,7 +38,7 @@ void setup() {
     display.setTextSize(1);
     display.setCursor(8,0);
     display.println("ESP SISTEMA");
-    display.drawLine(0,10,128,10, SSD1306_WHITE);
+    display.drawLine(0, 10, 128, 10, SSD1306_WHITE);
 
 
     display.display();
